@@ -2,9 +2,9 @@ Esta modelagem de dados levou em consideração dois sensores existentes no ambi
 
 Com a coleta de dados destes dois sensores podemos analisar o resultado.
 
-Para tal, serão necessárias 4 tabelas em um banco de dados, descritas nos arquivos em anexo (gerei dois arquivos PDFs).
+Para tal, serão necessárias 4 tabelas em um banco de dados, descritas nos arquivos em anexo (gerei dois arquivos PDFs e PNG).
 
-Foram craidas  entidades e os atributos necessários para a solução, aplicando o MER.
+Foram criadas  entidades e os atributos necessários para a solução, aplicando o MER.
 
 Foram identificadas acardinalidade de cada atributo.
 
