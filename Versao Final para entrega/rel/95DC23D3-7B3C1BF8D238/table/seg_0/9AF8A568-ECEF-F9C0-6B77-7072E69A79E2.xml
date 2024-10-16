@@ -94,7 +94,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7B07CB89-BE98-2164-B859-5D099613B44C" name="PK_tb_alerta_sensores">
+<ind_PK_UK id="7B07CB89-BE98-2164-B859-5D099613B44C" name="PK_sensores">
 <createdBy>denizf</createdBy>
 <createdTime>2024-10-16 21:40:21 UTC</createdTime>
 <generatorID>E67474F8-738E-0542-936E-CBEE432E765C</generatorID>

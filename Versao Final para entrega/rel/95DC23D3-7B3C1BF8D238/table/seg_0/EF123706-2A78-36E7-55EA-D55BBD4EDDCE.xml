@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FFD49AC-12C4-C983-44D8-B896E9547861" name="tb_sensor_npk">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF123706-2A78-36E7-55EA-D55BBD4EDDCE" name="tb_sensor_npk">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>34F4F8F9-6E16-3D57-3177-39366F694527</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="sensor_id" id="9FFEDDCC-8343-A60C-3759-B74B7C322288">
+<Column name="sensor_id" id="0644BD78-4FB4-3ED4-DDE8-1237B3E44560">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>8FB56EC6-189C-A6F1-6D35-DEF5E94B004A</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipo_sensor" id="E9809954-457C-0BDC-39A3-45130F006E36">
+<Column name="tipo_sensor" id="F0143D97-D3E6-DB88-D895-E64207C0D56F">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>5F6449FB-8028-089A-72B0-71B98F218D2F</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="localizacao" id="2BB36F21-8F63-2EA4-908B-625A1A90DADD">
+<Column name="localizacao" id="DCF4AC56-82BE-9414-B858-7F49CDD014E7">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>2211F129-3C7D-61CC-0F68-F991CE4EF076</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,9 +43,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ultima_leitura" id="06AEBB24-B77E-BFC2-089E-69515CE1137E">
+<Column name="ultima_leitura" id="0AE9CC1B-CF43-0047-715B-1E4FA93487A9">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>A14CA191-A12E-9717-1C99-CE7988D29310</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,9 +54,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="valor_nitrogenio" id="9FCCFB88-827C-E044-8F1F-F65015E6C844">
+<Column name="valor_nitrogenio" id="6AD946C4-79D7-EE58-85FA-C8C57C9D96F6">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>A25DB412-C802-4A04-E454-C7D72D488B2C</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -65,9 +65,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="valor_fosforo" id="1459E319-495E-1C68-BAB1-AB9FD068472E">
+<Column name="valor_fosforo" id="ABD8AE56-EF4F-A1D5-3C1C-0191F47799A7">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>C37E1799-F3C5-A494-739D-C0E92E5F5C47</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,9 +76,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="valor_potassio" id="876329C2-85C1-0B14-69EC-0AF7F0A54597">
+<Column name="valor_potassio" id="3AD0E0D4-B448-2A64-A65E-F9B8AEC33B96">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>36D29313-32F4-D6A5-7E01-39563C233352</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -87,9 +87,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="status" id="C954EFB5-DEA5-B439-9B4E-303E35979FE4">
+<Column name="status" id="3049CFE6-E160-52FE-2188-D1E108246CEA">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>F39E96E1-A256-15A9-B2DD-9183604CCA02</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -99,9 +99,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="bateria" id="1C1A11DF-AAB6-2AAA-4514-F860F558A2D4">
+<Column name="bateria" id="8B975BBE-A17F-7160-3BA2-468A28D105ED">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>F3EE9D35-97CD-0651-2389-885431ADECEB</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -110,9 +110,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="faixa_operacional" id="373F11E6-E201-8819-3AA8-F7E0EFB88F7A">
+<Column name="faixa_operacional" id="6E2EE336-581F-1DF0-0A17-DBC006EF1CF5">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>DF0B4492-5443-7ABA-EA8F-B16CF5401E6F</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -124,16 +124,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3C7746AE-F5D9-AA54-3FB2-46DE528DDAD7" name="PK_sensor_npk">
+<ind_PK_UK id="62F4B083-D956-5430-757C-902383BA159C" name="PK_tb_sensor_npk">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
 <generatorID>2C078071-8101-5C9E-D462-3D3EA5A1460A</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9FFEDDCC-8343-A60C-3759-B74B7C322288"/>
+<colUsage columnID="0644BD78-4FB4-3ED4-DDE8-1237B3E44560"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

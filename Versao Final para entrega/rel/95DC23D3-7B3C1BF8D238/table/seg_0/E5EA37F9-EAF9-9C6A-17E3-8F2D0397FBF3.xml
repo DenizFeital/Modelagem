@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0A01575-C38E-3E49-6AC9-C1D8B3F1769F" name="tb_alerta_sensores_npk">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5EA37F9-EAF9-9C6A-17E3-8F2D0397FBF3" name="tb_alerta_sensores">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
-<generatorID>2EE3586E-ABF8-23FE-AFAA-620D559B3A2E</generatorID>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>988F981B-16F6-1F2F-65C0-CCA597404B13</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="alerta_id" id="1D0F28D7-C283-71F6-D5AD-AC9D7E5F52E8">
+<Column name="alerta_id" id="517131E6-9FF8-B9E7-5023-288CF8218395">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
-<generatorID>CB8306C1-9485-B828-B737-30A869046071</generatorID>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>0B92D278-2AC6-9943-A8CC-7EF512F8CC6E</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,10 +19,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fk_sensor_id" id="8C81FCCE-8FA4-8C8B-EAFD-466260AE09C7">
+<Column name="sensor_id" id="B9370102-5D41-393A-E2E9-9ACCA08F7565">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
-<generatorID>FF3FC8C8-CEE2-8DF6-66A8-CE7B243E0D3C</generatorID>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>72334107-A6FA-CD98-735B-321B1A8D4119</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,13 +31,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="49FEAA9E-2FDE-78B8-252E-A9668CD4AD40" referredColumn="9FFEDDCC-8343-A60C-3759-B74B7C322288"/>
+<colAssociation fkAssociation="32DE4570-95CE-33D7-6B62-32DE2BE9D06E" referredColumn="8A38C08F-300F-6455-0FC5-B29BC4D380D7"/>
 </associations>
 </Column>
-<Column name="tipo_sensor" id="3A129E0F-88FC-034C-3B0D-0C980F951723">
+<Column name="tipo_sensor" id="87389D82-5EF3-C319-4E76-E321A065A648">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
-<generatorID>98C64AE0-77BA-E2F7-FA9E-EEA83AC4F5F7</generatorID>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>0A200C3B-150A-E1A9-C4E6-04AF7192E1B8</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,10 +46,10 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_alerta" id="F4447498-7607-2FFE-485C-9782CFB0984E">
+<Column name="data_alerta" id="B87F0D47-E65F-965D-87B9-C8F5942D6C2C">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
-<generatorID>C98050F7-A1C8-103E-45B1-6494A744D637</generatorID>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>D9E4E3E9-8DD0-8EE6-D025-132C90BDF6B9</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,10 +57,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipo_alerta" id="22C219ED-A82B-DB76-2FD2-5A30D7D1EBD2">
+<Column name="tipo_alerta" id="8620CB47-F331-B95A-5F13-C5A4653F88CA">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
-<generatorID>A6DBBDC5-40F7-49FE-FBF1-C8F0064D5830</generatorID>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>7324EDD3-7A01-B2D9-89C2-C957CDF97A47</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,10 +69,10 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="valor_medido" id="D444C42A-8C7F-F9CE-8A78-990CD741E6B3">
+<Column name="valor_medido" id="A604476C-9104-AF4A-EFD7-3A6BBA05B2DA">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
-<generatorID>26DC6C75-B199-954A-51BB-1E5AB1DE7EBA</generatorID>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>D69D9CDA-7CF3-CE0C-5CE1-C0A18CBC1A79</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -80,10 +80,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="status_alerta" id="2AFFA1D3-382F-CF85-24C2-642F00DACF34">
+<Column name="status_alerta" id="553D56FF-E462-F7AE-31D0-6C579930C965">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
-<generatorID>5E908F01-02E3-648C-B778-ADDF20AD140C</generatorID>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>7A9D5EA2-102C-D56A-29D2-D09D5D1E8D8C</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -94,27 +94,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1DAD9DA5-793D-DB0A-ECCA-8ECE1887DEDC" name="PK_sensores_npk">
+<ind_PK_UK id="7B7398E5-FA16-74EC-FF41-D293B5EB43C9" name="PK_tb_alerta_sensores">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
-<generatorID>E40558C0-7E97-2948-1F51-AD1045A6DA09</generatorID>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>E67474F8-738E-0542-936E-CBEE432E765C</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1D0F28D7-C283-71F6-D5AD-AC9D7E5F52E8"/>
+<colUsage columnID="517131E6-9FF8-B9E7-5023-288CF8218395"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A995E16B-2266-B7B7-5B41-8FC809749E36" name="FK_tb_alerta_sensores_npk_tb_sensor_npk">
+<ind_PK_UK id="E288E1AF-649A-C6A6-1640-D6497AA2F4A4" name="FK_tb_alerta_sensores_tb_sensor_umidade_e_pu">
 <createdBy>denizf</createdBy>
-<createdTime>2024-10-16 21:40:21 UTC</createdTime>
-<generatorID>570377BD-E1B1-070F-E20C-C69F381E5DEB</generatorID>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>FD2C119A-3B4D-9B59-545E-52904E52D94E</generatorID>
 <ownerDesignName>Versao Final para entrega</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8C81FCCE-8FA4-8C8B-EAFD-466260AE09C7"/>
+<colUsage columnID="B9370102-5D41-393A-E2E9-9ACCA08F7565"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

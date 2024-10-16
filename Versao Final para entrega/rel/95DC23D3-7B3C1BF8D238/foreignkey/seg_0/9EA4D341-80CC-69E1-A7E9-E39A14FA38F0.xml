@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EA4D341-80CC-69E1-A7E9-E39A14FA38F0" containerWithKeyObject="D9E6E543-9C2F-FFC6-945D-ABDCDFBB5ECF" localFKIndex="EE22ED6F-826A-07CF-507C-F8213DF1ADFE" name="FK_tb_alerta_sensores_npk_tb_sensor_npk">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 22:21:50 UTC</createdTime>
+<generatorID>570377BD-E1B1-070F-E20C-C69F381E5DEB</generatorID>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<referredTableLongName>tb_sensor_npk</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF123706-2A78-36E7-55EA-D55BBD4EDDCE</referredTableID>
+<keyObject>62F4B083-D956-5430-757C-902383BA159C</keyObject>
+<referredKeyID>62F4B083-D956-5430-757C-902383BA159C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sensor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
