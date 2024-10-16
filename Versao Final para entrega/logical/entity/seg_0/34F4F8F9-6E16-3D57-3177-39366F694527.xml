@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34F4F8F9-6E16-3D57-3177-39366F694527" name="tb_sensor_npk">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:09:37 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sensor_id" id="8FB56EC6-189C-A6F1-6D35-DEF5E94B004A">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:09:47 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_sensor" id="5F6449FB-8028-089A-72B0-71B98F218D2F">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:09:57 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localizacao" id="2211F129-3C7D-61CC-0F68-F991CE4EF076">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:10:17 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ultima_leitura" id="A14CA191-A12E-9717-1C99-CE7988D29310">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:10:30 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_nitrogenio" id="A25DB412-C802-4A04-E454-C7D72D488B2C">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:10:44 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_fosforo" id="C37E1799-F3C5-A494-739D-C0E92E5F5C47">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:10:58 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_potassio" id="36D29313-32F4-D6A5-7E01-39563C233352">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:11:08 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="F39E96E1-A256-15A9-B2DD-9183604CCA02">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:11:17 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bateria" id="F3EE9D35-97CD-0651-2389-885431ADECEB">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:11:30 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="faixa_operacional" id="DF0B4492-5443-7ABA-EA8F-B16CF5401E6F">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:11:50 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C078071-8101-5C9E-D462-3D3EA5A1460A" name="tb_sensor_npk PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:09:56 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FB56EC6-189C-A6F1-6D35-DEF5E94B004A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

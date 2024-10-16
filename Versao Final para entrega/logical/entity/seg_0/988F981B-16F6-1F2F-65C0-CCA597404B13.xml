@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="988F981B-16F6-1F2F-65C0-CCA597404B13" name="tb_alerta_sensores">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:15:24 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="alerta_id" id="0B92D278-2AC6-9943-A8CC-7EF512F8CC6E">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:15:36 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sensor_id" id="72334107-A6FA-CD98-735B-321B1A8D4119">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:25:58 UTC</createdTime>
+<generatorID>FD2C119A-3B4D-9B59-545E-52904E52D94E</generatorID>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<referedAttribute>99B920E4-931C-B539-BFB9-B37EC61B50DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_sensor" id="0A200C3B-150A-E1A9-C4E6-04AF7192E1B8">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:16:11 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_alerta" id="D9E4E3E9-8DD0-8EE6-D025-132C90BDF6B9">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:16:27 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_alerta" id="7324EDD3-7A01-B2D9-89C2-C957CDF97A47">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:16:36 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_medido" id="D69D9CDA-7CF3-CE0C-5CE1-C0A18CBC1A79">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:16:50 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_alerta" id="7A9D5EA2-102C-D56A-29D2-D09D5D1E8D8C">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:17:02 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E67474F8-738E-0542-936E-CBEE432E765C" name="tb_alerta_sensores PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-10-16 21:15:41 UTC</createdTime>
+<ownerDesignName>Versao Final para entrega</ownerDesignName>
+<engineerTo>
+<item key="95DC23D3-A528-C569-9D0B-7B3C1BF8D238" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B92D278-2AC6-9943-A8CC-7EF512F8CC6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
